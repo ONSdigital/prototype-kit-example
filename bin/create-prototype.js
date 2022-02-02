@@ -28,6 +28,9 @@ async function createPrototypesProject() {
     // Initialise project as a git repository.
     await exec(`cd ${outputProjectPath} && git init`);
 
+    // Install yarn dependencies.
+    await exec(`cd ${outputProjectPath} && yarn`);
+
     // Success!
     console.log(`Project created at path '${outputProjectPath}'.`);
 }

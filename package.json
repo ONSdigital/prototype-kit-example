@@ -1,6 +1,6 @@
 {
   "name": "prototype-kit-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "bin": {
     "create-prototype": "bin/create-prototype.js",
