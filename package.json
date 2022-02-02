@@ -1,0 +1,12 @@
+{
+  "name": "prototype-kit-example",
+  "version": "1.0.0",
+  "private": true,
+  "bin": {
+    "create-prototype": "bin/create-prototype.js",
+    "build-prototype": "bin/build-prototype.js"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  }
+}

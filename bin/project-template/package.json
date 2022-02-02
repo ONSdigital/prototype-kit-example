@@ -1,0 +1,10 @@
+{
+  "name": "{{PROJECT_NAME}}",
+  "private": true,
+  "scripts": {
+    "build": "build-prototype ."
+  },
+  "dependencies": {
+    "prototype-kit-example": "git+https://github.com/ONSdigital/prototype-kit-example#v{{PROTOTYPE_KIT_VERSION}}"
+  }
+}
